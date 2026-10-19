@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
+        <!-- 1. Splash Screen (This opens first!) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -19,6 +20,12 @@
             </intent-filter>
         </activity>
 
+        <!-- 2. Login Screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- 3. Dashboard/Main Screen -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
