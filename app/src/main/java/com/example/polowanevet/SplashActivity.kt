@@ -1,4 +1,4 @@
-package com.example.polokwanevet
+package com.example.polowanevet
 
 import android.content.Intent
 import android.os.Bundle
